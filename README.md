@@ -17,5 +17,7 @@ The algorithm used here for the train are:
 3. [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
  
 I have decided to use different algorithms in order to compare the results in terms of Accuracy, Precision, AUC and Training Time. 
+In particular from the Accuracy shown in the following figure:
 
+one can conclude that even without Data Pre-processing the results of the prediction are acceptable (higher than 80%) for the 
 
