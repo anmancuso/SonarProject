@@ -4,5 +4,8 @@ As the name suggests, the aim of this project is to use the data provided by a s
 The dataset is made of 60 features (strenght of bouncing signals at 60 different angles) with 208 observations.
 
 In the [Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb) notebook, the data are visualized with box plots to check the precesence of possible outliers and to understand the general trend of the data. 
+From this check, no particular evidences can be pointed out. 
+
+In the [Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb)
 
 
