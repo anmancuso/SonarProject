@@ -1,1 +1,21 @@
 # SonarProject
+The dataset under study is a storic dataset used by Gorman, R. P., and Sejnowski, T. J. (1988) in their “Analysis of Hidden Units in a Layered Network Trained to Classify Sonar Targets” in Neural Networks, Vol. 1, pp. 75–89.
+As the name suggests, the aim of this project is to use the data provided by a sonar to distinguish between rocks and metal objects such as mines. 
+The dataset is made of 60 features (strenght of bouncing signals at 60 different angles) with 208 observations.
+For each observation we know the outcome as a Rock "R" or a Mine "M".
+
+In the [Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb) notebook, the data studied by visualizing the  box plots to check the precesence of possible outliers and to understand the general trend of the data. 
+Of course here the data under studied are only the train-data obtained with a train test split with size 0.2 (20% of the dataset is used to test the learning). 
+From this check, no particular evidences can be pointed out. 
+
+In this first attempt to face the classification problem [first attempt](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb), the data have not been processed (except for the initial Encoding of the result of the observation : "R" is the class 1 and "M" is the class 0).
+
+The algorithm used here for the train are: 
+
+1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
+2. [linear Support Vector Classifier (SVC)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
+3. [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+ 
+I have decided to use different algorithms in order to compare the results in terms of Accuracy, Precision, AUC and Training Time. 
+
+
