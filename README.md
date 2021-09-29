@@ -18,6 +18,7 @@ The algorithm used here for the train are:
  
 I have decided to use different algorithms in order to compare the results in terms of Accuracy, Precision, AUC and Training Time. 
 In particular from the Accuracy shown in the following figure:
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/comparison_wo_featuresel.pngimage.jpg?raw=true)
 
 one can conclude that even without Data Pre-processing the results of the prediction are acceptable (higher than 80%) for the 
 
