@@ -42,5 +42,9 @@ By doing so for all the Algorithm chosen and for all the Feature selection funct
 
 
 
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/ROC_total.png?raw=true)
+
+Among the Algorithm Tested, for sure the linear Support Vector Classifier with a Feature Reduction or with a Data Standardization, give the best results in terms of Accuracy and AUC. 
+
 
 
