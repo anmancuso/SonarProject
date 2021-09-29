@@ -32,6 +32,7 @@ For the feature selection instead the algorithm used are:
 After a first check of the distribution of the importance of the feature to optimize the number of feature to keep, I have implemented the train by means of Pipelines built with two steps: 
 1. Data Processing
 2. Training fit
+
 By doing so for all the Algorithm chosen and for all the Feature selection functions, I have compared all the results, which can be summarized in the following plots:
 
 
