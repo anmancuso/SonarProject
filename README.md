@@ -12,10 +12,33 @@ In this first attempt to face the classification problem [first attempt](https:/
 
 The algorithm used here for the train are: 
 
-1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html)
-2. [linear Support Vector Classifier (SVC)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html)
-3. [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html)
+1. [Logistic Regression](https://scikit-learn.org/stable/modules/generated/sklearn.linear_model.LogisticRegression.html);
+2. [linear Support Vector Classifier (SVC)](https://scikit-learn.org/stable/modules/generated/sklearn.svm.SVC.html);
+3. [Decision Tree](https://scikit-learn.org/stable/modules/generated/sklearn.tree.DecisionTreeClassifier.html);
  
 I have decided to use different algorithms in order to compare the results in terms of Accuracy, Precision, AUC and Training Time. 
+In particular from the Accuracy shown in the following figure:
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/comparison_wo_featuresel.png?raw=true)
+
+one can conclude that even without Data Pre-processing the results of the prediction are acceptable (higher than 80%) with the SVC algorithm.
+
+Of course by looking at the results obtained by facing  the classification problem [with feature selection and data preparation](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_with_feature_reduction.ipynb), one realize that the performaces considerably improve.
+The Data Preparation consist of the standardization of the observation (that is to have a dataset of Mean 0 and STD 1). 
+For the feature selection instead the algorithm used are: 
+1. [Univariate Selection with SelectKBest](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.SelectKBest.html);
+2. [Recursive Feature Elimination](https://scikit-learn.org/stable/modules/generated/sklearn.feature_selection.RFE.html);
+3. [Random Forest Classifier](https://scikit-learn.org/stable/modules/generated/sklearn.ensemble.RandomForestClassifier.html);
+
+After a first check of the distribution of the importance of the feature to optimize the number of feature to keep, I have implemented the train by means of Pipelines built with two steps: 
+1. Data Processing
+2. Training fit
+
+By doing so for all the Algorithm chosen and for all the Feature selection functions, I have compared all the results, which can be summarized in the following plots:
+
+
+
+
+
+
 
 
