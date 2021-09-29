@@ -20,5 +20,16 @@ I have decided to use different algorithms in order to compare the results in te
 In particular from the Accuracy shown in the following figure:
 ![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/comparison_wo_featuresel.png?raw=true)
 
-one can conclude that even without Data Pre-processing the results of the prediction are acceptable (higher than 80%) for the 
+one can conclude that even without Data Pre-processing the results of the prediction are acceptable (higher than 80%) with the SVC algorithm.
+
+
+Of course by looking at the results obtained by facing  the classification problem [with feature selection and data preparation](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_with_feature_reduction.ipynb), one realize that the performaces considerably improve.
+
+
+
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/comparison_wo_featuresel.png?raw=true)
+
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/comparison_wo_featuresel.png?raw=true)
+
+
 
