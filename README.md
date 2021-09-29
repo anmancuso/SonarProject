@@ -35,8 +35,10 @@ After a first check of the distribution of the importance of the feature to opti
 
 By doing so for all the Algorithm chosen and for all the Feature selection functions, I have compared all the results, which can be summarized in the following plots:
 
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/Accuracy_total.png?raw=true)
 
 
+![alt text](https://github.com/anmancuso/SonarProject/blob/main/plots/AUC_total.png?raw=true)
 
 
 
