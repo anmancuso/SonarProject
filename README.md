@@ -1,4 +1,27 @@
 # SonarProject
+
+How to download the repository: 
+- git clone [https://github.com/anmancuso/SonarProject](https://github.com/anmancuso/SonarProject)
+
+Required Packages: 
+- numpy
+- pandas
+- seaborn
+- matplotlib
+- sklearn
+
+How to run the project: 
+The project is composed by three notebooks:
+1.[Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb) -> Data Visualization
+2.[Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb) -> ML without any data pre-processing
+3.[Rock_vs_Mine_binary_classification_with_feature_reduction.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb) -> ML with feature selection and data pre-processing <font color="green">(This is the main script!)</font>
+
+Then there are two additional .py scripts to plot and to print the results.
+
+-----
+<span style="color: green"> Description of the Project </span>
+
+
 The dataset under study is a storic dataset used by Gorman, R. P., and Sejnowski, T. J. (1988) in their “Analysis of Hidden Units in a Layered Network Trained to Classify Sonar Targets” in Neural Networks, Vol. 1, pp. 75–89.
 As the name suggests, the aim of this project is to use the data provided by a sonar to distinguish between rocks and metal objects such as mines. 
 The dataset is made of 60 features (strenght of bouncing signals at 60 different angles) with 208 observations.
