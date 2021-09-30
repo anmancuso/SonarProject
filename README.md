@@ -1,9 +1,9 @@
 # SonarProject
 
-How to download the repository: 
+### How to download the repository: 
 - git clone [https://github.com/anmancuso/SonarProject](https://github.com/anmancuso/SonarProject)
 
-Required Packages: 
+### Required Packages: 
 - numpy
 - pandas
 - seaborn
@@ -12,8 +12,10 @@ Required Packages:
 
 (The code has been developed with python3.8)
 
-How to run the project: 
+### How to run the project:
+
 The project is composed by three notebooks:
+
 1.[Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb) -> Data Visualization
 2.[Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb) -> ML without any data pre-processing
 3.[Rock_vs_Mine_binary_classification_with_feature_reduction.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Rock_vs_Mine_binary_classification_without_feature_reduction.ipynb) -> ML with feature selection and data pre-processing **This is the main script!**
