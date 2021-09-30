@@ -10,6 +10,8 @@ Required Packages:
 - matplotlib
 - sklearn
 
+(The code has been developed with python3.8)
+
 How to run the project: 
 The project is composed by three notebooks:
 1.[Exploring_the_dataset.ipynb](https://github.com/anmancuso/SonarProject/blob/main/Exploring_the_Dataset.ipynb) -> Data Visualization
